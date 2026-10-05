@@ -1,0 +1,45 @@
+{
+  "name": "next-permutation",
+  "version": "0.1.0",
+  "description": "Lexicographic permutations: next, previous, and lazy generation.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Igor Matveev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itveev/next-permutation.git"
+  },
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "prepack": "npm run build",
+    "typecheck": "tsc --noEmit",
+    "test": "tsc --noEmit && vitest run",
+    "benchmark": "tsx benchmark/benchmark.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  },
+  "keywords": [
+    "permutation",
+    "lexicographic",
+    "combinatorics"
+  ]
+}
