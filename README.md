@@ -1,4 +1,4 @@
-# next-permutation
+# next-permutation-js
 
 Minimal, dependency-free lexicographic permutations for JavaScript.
 
@@ -7,7 +7,7 @@ Minimal, dependency-free lexicographic permutations for JavaScript.
 ## Install
 
 ```sh
-npm install next-permutation
+npm install npm install next-permutation-js
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ import {
   nextPermutationInPlace,
   previousPermutation,
   permutations,
-} from "next-permutation";
+} from "next-permutation-js";
 
 nextPermutation([1, 2, 3]);
 // [1, 3, 2]

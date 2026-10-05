@@ -1,5 +1,5 @@
 {
-  "name": "next-permutation",
+  "name": "next-permutation-js",
   "version": "0.1.0",
   "description": "Lexicographic permutations: next, previous, and lazy generation.",
   "type": "module",
