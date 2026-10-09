@@ -9,6 +9,10 @@
     "type": "git",
     "url": "git+https://github.com/itveev/next-permutation.git"
   },
+  "homepage": "https://github.com/itveev/next-permutation#readme",
+  "bugs": {
+    "url": "https://github.com/itveev/next-permutation/issues"
+  },
   "sideEffects": false,
   "engines": {
     "node": ">=18"
