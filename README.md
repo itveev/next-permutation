@@ -1,5 +1,8 @@
 # next-permutation-js
 
+[![npm version](https://img.shields.io/npm/v/next-permutation-js)](https://www.npmjs.com/package/next-permutation-js)
+[![npm downloads](https://img.shields.io/npm/dm/next-permutation-js)](https://www.npmjs.com/package/next-permutation-js)
+
 Minimal, dependency-free lexicographic permutations for JavaScript.
 
 `nextPermutation` and `previousPermutation` move one step. `permutations` lazily yields every distinct permutation in order. In-place steps are O(n) time and O(1) extra memory.
